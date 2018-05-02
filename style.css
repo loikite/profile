@@ -1,0 +1,127 @@
+body {
+  font-family: Montserrat;
+  font-weight: 100; /* if you want the light version */
+  font-size: 15px;
+  line-height: 1.6;
+  color: #51514A;
+  background-color: #D5D0CD;
+
+}
+
+h1 {
+  font-family: Montserrat;
+  color: #51514A;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.6;
+  letter-spacing: 2px;
+  text-decoration: none;
+  text-align: center;
+}
+
+h2 {
+  font-family: Montserrat;
+  color: #51514A;
+  font-size: 25px;
+  font-weight: bold;
+  line-height: 1.6;
+  text-decoration: underline;
+  text-align: justify;
+}
+
+h3 {
+  font-family: Montserrat;
+  color: #51514A;
+  font-size: 25px;
+  line-height: 1.6;
+  text-decoration: none;
+  text-align: justify;
+}
+
+p {
+  font-family: Montserrat;
+  color: #51514A;
+  font-size: 15px;
+  line-height: 1.3;
+  text-decoration: none;
+  text-align: justify;
+}
+
+a {
+  font-family: Montserrat;
+  color: #51514A;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+  text-decoration: none;
+  text-align: justify;
+}
+
+a:hover {
+  font-family: Montserrat;
+  color: black;
+  font-size: 15px;
+  font-weight: bold;
+  line-height: 1.3;
+  text-decoration: none;
+  text-align: justify;
+}
+
+.container {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+}
+.card1 {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  background-color: #E5DFDC;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+  text-align: center;
+  box-shadow: -.4em 0 .2em grey;
+
+}
+.card {
+  width: 500px;   /* This sets the width */
+  margin: 0 auto; /* This automatically sets left/right margins */
+  background-color: #E5DFDC;
+  border-radius: 10px;
+  padding: 30px;
+  margin: 10px;
+  box-shadow: -.4em 0 .2em grey;
+}
+.card-image1 {
+  height: 250px;
+    width: 250px;
+    background-color: powderblue;
+    border-radius: 8px;
+}
+.card-image {
+  height: 300px;
+    width: 200px;
+    background-color: powderblue;
+    border-radius: 8px;
+}
+
+@media (max-width: 960px) {
+  /* For a screen < 960px, this CSS will be read */
+  .container {
+    width: 700px;
+  }
+}
+@media (max-width: 720px) {
+  /* For a screen < 720px, this CSS will be read */
+  .container {
+    width: 500px;
+  }
+}
+@media (max-width: 540px) {
+  /* For a screen < 540px, this CSS will be read */
+  .container {
+    width: 300px;
+  }
+}
+.text-position {
+  margin-left: 25px;
+}
